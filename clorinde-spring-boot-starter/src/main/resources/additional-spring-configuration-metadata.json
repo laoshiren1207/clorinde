@@ -1,0 +1,29 @@
+{
+    "groups": [
+        {
+            "sourceType": "io.github.clorinde.springframework.boot.properties.ClorindeConfigurationProperties",
+            "name": "clorinde",
+            "type": "io.github.clorinde.springframework.boot.properties.ClorindeConfigurationProperties"
+        }
+    ],
+    "properties": [
+        {
+            "defaultValue": 100,
+            "name": "clorinde.readTimeout",
+            "description": "读取超时 100s",
+            "type": "java.lang.Integer"
+        },
+        {
+            "defaultValue": 60,
+            "name": "clorinde.connectTimeout",
+            "description": "链接超时 60s",
+            "type": "java.lang.Integer"
+        },
+        {
+            "defaultValue": 60,
+            "name": "clorinde.writeTimeout",
+            "description": "写超时 60s",
+            "type": "java.lang.Integer"
+        }
+    ]
+}
